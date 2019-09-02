@@ -7,6 +7,7 @@
 //
 
 #import "GCViewController.h"
+#import "HLPerson.h"
 
 @interface GCViewController ()
 
@@ -18,12 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [HLPerson run];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+ 
 
 @end

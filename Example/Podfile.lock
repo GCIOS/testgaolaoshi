@@ -1,0 +1,16 @@
+PODS:
+  - testgaolaoshi (0.0.1)
+
+DEPENDENCIES:
+  - testgaolaoshi (from `../`)
+
+EXTERNAL SOURCES:
+  testgaolaoshi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  testgaolaoshi: 44e9b06ae643b46151859378b8fbc3e6b8454a3a
+
+PODFILE CHECKSUM: af07431438993e113427d6e2cfdee83c5ca8347b
+
+COCOAPODS: 1.7.5

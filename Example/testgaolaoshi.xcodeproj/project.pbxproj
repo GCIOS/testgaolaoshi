@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06C7F4B954212DFCAE9C777F /* testgaolaoshi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = testgaolaoshi.podspec; path = ../testgaolaoshi.podspec; sourceTree = "<group>"; };
+		06C7F4B954212DFCAE9C777F /* testgaolaoshi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testgaolaoshi.podspec; path = ../testgaolaoshi.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1D32523411770DC7794D258C /* Pods-testgaolaoshi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testgaolaoshi_Tests.debug.xcconfig"; path = "Target Support Files/Pods-testgaolaoshi_Tests/Pods-testgaolaoshi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		21DB04EEB875AC89BF5B3120 /* Pods-testgaolaoshi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testgaolaoshi_Example.release.xcconfig"; path = "Target Support Files/Pods-testgaolaoshi_Example/Pods-testgaolaoshi_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* testgaolaoshi_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testgaolaoshi_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,11 +60,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		620D84CA66DCAFE04E609165 /* Pods-testgaolaoshi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testgaolaoshi_Tests.release.xcconfig"; path = "Target Support Files/Pods-testgaolaoshi_Tests/Pods-testgaolaoshi_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		66A091E86C56868E6B652625 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		66A091E86C56868E6B652625 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F92837314C26D3978BDEFB1 /* Pods_testgaolaoshi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testgaolaoshi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2981D3CBD127F31D1A57122 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A2981D3CBD127F31D1A57122 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AC79B8208F815991AB7DAF73 /* Pods-testgaolaoshi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testgaolaoshi_Example.debug.xcconfig"; path = "Target Support Files/Pods-testgaolaoshi_Example/Pods-testgaolaoshi_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C41DF031D3D75423BC306A58 /* Pods_testgaolaoshi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testgaolaoshi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				1D32523411770DC7794D258C /* Pods-testgaolaoshi_Tests.debug.xcconfig */,
 				620D84CA66DCAFE04E609165 /* Pods-testgaolaoshi_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
